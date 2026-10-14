@@ -94,7 +94,7 @@ export function HeroCarousel({ slides }: { slides: Slide[] }) {
 
       {enabled.length > 1 && (
         <>
-          <div className="pointer-events-none absolute inset-x-0 bottom-6 flex justify-center gap-2 sm:bottom-8">
+          <div className="pointer-events-none absolute inset-x-0 bottom-5 flex justify-center gap-1 sm:bottom-7">
             {enabled.map((s, i) => (
               <button
                 key={s.id}
@@ -102,11 +102,13 @@ export function HeroCarousel({ slides }: { slides: Slide[] }) {
                 aria-label={`Go to slide ${i + 1}`}
                 aria-current={i === selected ? 'true' : undefined}
                 onClick={() => scrollTo(i)}
-                className={cn(
-                  'pointer-events-auto h-2.5 rounded-full transition-all',
-                  i === selected ? 'w-8 bg-safety' : 'w-2.5 bg-white/60 hover:bg-white',
-                )}
-              />
+                className="pointer-events-auto grid h-6 w-6 place-items-center"
+              >
+                <span
+                  aria-hidden="true"
+                  className={cn('block h-2.5 rounded-full transition-all', i === selected ? 'w-6 bg-safety' : 'w-2.5 bg-white/70')}
+                />
+              </button>
             ))}
           </div>
           <div className="absolute bottom-5 right-4 hidden gap-2 sm:flex lg:right-8">

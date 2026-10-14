@@ -12,7 +12,7 @@ export default {
           100: '#E3E8EC',
           200: '#C5CED6',
           300: '#9BAAB7',
-          400: '#6B7F91',
+          400: '#5C6F81',
           500: '#44596C',
           600: '#2E4256',
           700: '#213447',
@@ -21,7 +21,7 @@ export default {
         },
         graphite: '#2B3A45',
         concrete: '#EEF1F3',
-        safety: { DEFAULT: '#F26A1B', 600: '#D9560E', 100: '#FDE6D8' },
+        safety: { DEFAULT: '#F26A1B', 600: '#D9560E', 700: '#A8420B', 100: '#FDE6D8' },
       },
       fontFamily: {
         display: ['"Barlow Condensed"', '"Arial Narrow"', 'sans-serif'],

@@ -32,6 +32,7 @@ export function ProductsPage() {
           />
         </aside>
         <div>
+          <h2 className="sr-only">Results</h2>
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm text-steel-500" role="status">
               {results.length} of {total} products

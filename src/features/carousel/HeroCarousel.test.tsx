@@ -44,3 +44,15 @@ test('renders a single h1 even with several slides', () => {
   )
   expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1)
 })
+
+test('dot controls have a 24px hit target', () => {
+  render(
+    <MemoryRouter>
+      <HeroCarousel slides={slides} />
+    </MemoryRouter>,
+  )
+  for (const dot of screen.getAllByRole('button', { name: /go to slide/i })) {
+    expect(dot.className).toMatch(/\bh-6\b/)
+    expect(dot.className).toMatch(/\bw-6\b/)
+  }
+})
