@@ -1,0 +1,40 @@
+{
+  "company": {
+    "name": "Northline Industrial Supply",
+    "tagline": "Industrial equipment, supplied and supported",
+    "logoText": "Northline",
+    "email": "sales@northline.example",
+    "phone": "+63 2 8123 4567",
+    "address": "Lot 14, Northgate Industrial Park, Calamba, Laguna 4027",
+    "hours": "Monday to Friday 7:30 am to 5:30 pm, Saturday 8:00 am to 12:00 pm",
+    "social": [
+      { "label": "Facebook", "url": "https://facebook.com/" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/" },
+      { "label": "YouTube", "url": "https://youtube.com/" }
+    ]
+  },
+  "about": {
+    "intro": [
+      "Northline Industrial Supply has equipped factories, contractors and utilities since 2004. We stock generators, compressors, pumps, welding machines, material handling equipment and professional power tools, and we back every sale with people who have run the gear themselves.",
+      "Our team of service engineers sizes equipment for the job, commissions it on site and keeps spare parts on the shelf, so a breakdown costs you hours rather than weeks.",
+      "We serve manufacturing plants, construction sites, mines, farms and logistics operators across Luzon and the Visayas, with delivery from our Calamba warehouse and partner depots."
+    ],
+    "stats": [
+      { "label": "Years in business", "value": "22" },
+      { "label": "Products in stock", "value": "1,400+" },
+      { "label": "Provinces served", "value": "38" },
+      { "label": "Service response", "value": "24 h" }
+    ],
+    "certifications": [
+      "ISO 9001:2015 quality management",
+      "Authorised distributor for Cummins, Atlas Copco and Lincoln Electric",
+      "DOLE-accredited equipment safety training",
+      "Members of the Philippine Constructors Association"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Man_pointing_at_tools_on_a_wall_in_a_workshop.jpg/1280px-Man_pointing_at_tools_on_a_wall_in_a_workshop.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Engineer_inspecting_the_winding_machine.jpg/1280px-Engineer_inspecting_the_winding_machine.jpg"
+    ]
+  },
+  "admin": { "email": "admin@northline.example", "password": "northline2026" }
+}

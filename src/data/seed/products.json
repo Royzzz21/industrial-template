@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "prod-gen-ng65",
+    "name": "Northline NG-65 silent diesel generator 65 kVA",
+    "slug": "northline-ng-65-silent-diesel-generator-65-kva",
+    "sku": "GEN-NG65",
+    "brand": "Northline",
+    "categoryId": "cat-generators",
+    "shortDescription": "Canopied 65 kVA prime-power set with Cummins 4BTA3.9 engine, Stamford alternator and DeepSea controller.",
+    "description": "The NG-65 is our most popular standby and prime-power set for commercial buildings, cold storage and mid-size plants. The weatherproof canopy keeps noise to 68 dB(A) at 7 m, the 200 L base tank runs 12 hours at 75% load, and the DeepSea 7320 controller supports automatic mains failure start with an optional ATS panel. Delivered commissioned, with a two-year or 2,000-hour warranty.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Caterpillar_%28Olympian%29_Generator_Set.jpg/1280px-Caterpillar_%28Olympian%29_Generator_Set.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Generator_sets.JPG/1280px-Generator_sets.JPG"
+    ],
+    "specs": [
+      {
+        "label": "Prime power",
+        "value": "65 kVA / 52 kW"
+      },
+      {
+        "label": "Standby power",
+        "value": "72 kVA / 58 kW"
+      },
+      {
+        "label": "Engine",
+        "value": "Cummins 4BTA3.9-G2, 4-cylinder turbo diesel"
+      },
+      {
+        "label": "Alternator",
+        "value": "Stamford UCI224E, brushless"
+      },
+      {
+        "label": "Voltage",
+        "value": "400/230 V, 3-phase, 50 Hz"
+      },
+      {
+        "label": "Fuel tank",
+        "value": "200 L base tank, 12 h at 75% load"
+      },
+      {
+        "label": "Noise level",
+        "value": "68 dB(A) at 7 m"
+      },
+      {
+        "label": "Dimensions",
+        "value": "2,350 × 1,000 × 1,450 mm, 1,380 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": true,
+    "createdAt": "2026-01-08T00:00:00.000Z",
+    "updatedAt": "2026-01-08T00:00:00.000Z",
+    "priceLabel": "From ₱1,180,000",
+    "datasheetUrl": "#"
+  },
+  {
+    "id": "prod-gen-c150d5",
+    "name": "Cummins C150D5 diesel generator 150 kVA",
+    "slug": "cummins-c150d5-diesel-generator-150-kva",
+    "sku": "GEN-C150D5",
+    "brand": "Cummins",
+    "categoryId": "cat-generators",
+    "shortDescription": "Open-frame or canopied 150 kVA set with 6BTAA5.9 engine and PowerCommand 1.1 control.",
+    "description": "A 150 kVA set for factories, hospitals and data rooms where load steps matter. The 6BTAA5.9-G6 engine accepts 100% block load in one step, and the PowerCommand 1.1 controller gives full protection, remote monitoring and paralleling readiness. Supplied as open-frame for plant rooms or with a sound-attenuated enclosure for outdoor installation.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cummins_generator.jpg/1280px-Cummins_generator.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Caterpillar_3516B_-_XQ2000_Power_Module.JPG/1280px-Caterpillar_3516B_-_XQ2000_Power_Module.JPG"
+    ],
+    "specs": [
+      {
+        "label": "Prime power",
+        "value": "150 kVA / 120 kW"
+      },
+      {
+        "label": "Standby power",
+        "value": "165 kVA / 132 kW"
+      },
+      {
+        "label": "Engine",
+        "value": "Cummins 6BTAA5.9-G6"
+      },
+      {
+        "label": "Alternator",
+        "value": "Stamford S2 series"
+      },
+      {
+        "label": "Control",
+        "value": "PowerCommand 1.1, AMF ready"
+      },
+      {
+        "label": "Fuel consumption",
+        "value": "31 L/h at 100% load"
+      },
+      {
+        "label": "Enclosure",
+        "value": "Open frame or 75 dB(A) canopy"
+      }
+    ],
+    "stock": "on_order",
+    "featured": true,
+    "createdAt": "2026-01-11T00:00:00.000Z",
+    "updatedAt": "2026-01-11T00:00:00.000Z",
+    "priceLabel": "Price on request"
+  },
+  {
+    "id": "prod-gen-eu70is",
+    "name": "Honda EU70is portable inverter generator 7 kVA",
+    "slug": "honda-eu70is-portable-inverter-generator-7-kva",
+    "sku": "GEN-EU70IS",
+    "brand": "Honda",
+    "categoryId": "cat-generators",
+    "shortDescription": "Quiet, fuel-injected 7 kVA inverter generator for sensitive electronics, events and backup.",
+    "description": "The EU70is produces clean sine-wave power suitable for computers, instrumentation and medical equipment. Electronic fuel injection, electric start and Eco-Throttle give up to 18 hours on a tank. Wheels and folding handles make it a one-person move.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2023-01-03_Portable_electrical_generators.jpg/1280px-2023-01-03_Portable_electrical_generators.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Rated output",
+        "value": "5.5 kVA continuous, 7.0 kVA maximum"
+      },
+      {
+        "label": "Engine",
+        "value": "Honda GX390 EFI, 389 cc"
+      },
+      {
+        "label": "Run time",
+        "value": "Up to 18 h at 25% load"
+      },
+      {
+        "label": "Noise level",
+        "value": "52 to 60 dB(A)"
+      },
+      {
+        "label": "Outlets",
+        "value": "2 × 230 V 15 A, 1 × 230 V 30 A"
+      },
+      {
+        "label": "Weight",
+        "value": "118 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-01-14T00:00:00.000Z",
+    "updatedAt": "2026-01-14T00:00:00.000Z",
+    "priceLabel": "₱289,000"
+  },
+  {
+    "id": "prod-gen-mt100",
+    "name": "Northline MT-100 mobile generator trailer 100 kVA",
+    "slug": "northline-mt-100-mobile-generator-trailer-100-kva",
+    "sku": "GEN-MT100",
+    "brand": "Northline",
+    "categoryId": "cat-generators",
+    "shortDescription": "Road-towable 100 kVA rental-spec set with lockable canopy, 500 L tank and quick-connect camlocks.",
+    "description": "Built for hire fleets and event power, the MT-100 sits on a braked single-axle trailer with a hitch-mounted spare, a 500 L bunded tank for 24-hour running and a distribution panel with camlock and socket outlets. Rental-spec hour meter and fleet telemetry are standard.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Generator_trailer_at_Dongsishitiaoqiaoxi_%2820210425152322%29.jpg/1280px-Generator_trailer_at_Dongsishitiaoqiaoxi_%2820210425152322%29.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Prime power",
+        "value": "100 kVA / 80 kW"
+      },
+      {
+        "label": "Engine",
+        "value": "Perkins 1104A-44TG2"
+      },
+      {
+        "label": "Fuel tank",
+        "value": "500 L bunded, 24 h at 75% load"
+      },
+      {
+        "label": "Trailer",
+        "value": "Braked single axle, 2,600 kg GVM"
+      },
+      {
+        "label": "Outlets",
+        "value": "3 × 63 A 5-pin, 2 × 32 A, camlock set"
+      },
+      {
+        "label": "Noise level",
+        "value": "70 dB(A) at 7 m"
+      }
+    ],
+    "stock": "enquire",
+    "featured": false,
+    "createdAt": "2026-01-17T00:00:00.000Z",
+    "updatedAt": "2026-01-17T00:00:00.000Z",
+    "priceLabel": "Price on request"
+  },
+  {
+    "id": "prod-comp-ps50",
+    "name": "Panther PS-50 silent oil-free compressor 50 L",
+    "slug": "panther-ps-50-silent-oil-free-compressor-50-l",
+    "sku": "COMP-PS50",
+    "brand": "Panther",
+    "categoryId": "cat-compressors",
+    "shortDescription": "Low-noise 1.5 kW twin-motor oil-free compressor for workshops, dental and spray finishing.",
+    "description": "At 55 dB(A) the PS-50 can run beside a workbench without hearing protection. Oil-free pistons mean clean air for spray guns and instruments, and the twin motors can be staged to match demand. Includes regulator, two quick couplers and a drain valve.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/PANTHER_silent_compressor.jpg/1280px-PANTHER_silent_compressor.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Motor",
+        "value": "2 × 0.75 kW, 230 V single phase"
+      },
+      {
+        "label": "Free air delivery",
+        "value": "180 L/min"
+      },
+      {
+        "label": "Max pressure",
+        "value": "8 bar"
+      },
+      {
+        "label": "Receiver",
+        "value": "50 L"
+      },
+      {
+        "label": "Noise level",
+        "value": "55 dB(A)"
+      },
+      {
+        "label": "Weight",
+        "value": "38 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": true,
+    "createdAt": "2026-01-20T00:00:00.000Z",
+    "updatedAt": "2026-01-20T00:00:00.000Z",
+    "priceLabel": "₱42,500"
+  },
+  {
+    "id": "prod-comp-s185",
+    "name": "Sullair 185H towable diesel compressor 185 cfm",
+    "slug": "sullair-185h-towable-diesel-compressor-185-cfm",
+    "sku": "COMP-S185",
+    "brand": "Sullair",
+    "categoryId": "cat-compressors",
+    "shortDescription": "Towable 185 cfm, 100 psi rotary screw compressor for breakers, sandblasting and site tools.",
+    "description": "The industry standard tow-behind. A Kubota V2403 engine drives the Sullair rotary screw air end for 185 cfm at 100 psi. The enclosure opens fully for service, the 110 L tank gives a 10-hour shift, and the unit tows behind any site pickup.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Portable_Air_Compressor_Chaudiere_Falls_Gatineau%3B_Ottawa_%2840862447652%29.jpg/1280px-Portable_Air_Compressor_Chaudiere_Falls_Gatineau%3B_Ottawa_%2840862447652%29.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Free air delivery",
+        "value": "185 cfm (5.2 m³/min)"
+      },
+      {
+        "label": "Pressure",
+        "value": "100 psi (7 bar)"
+      },
+      {
+        "label": "Engine",
+        "value": "Kubota V2403, 49 hp diesel"
+      },
+      {
+        "label": "Fuel tank",
+        "value": "110 L, 10 h"
+      },
+      {
+        "label": "Outlets",
+        "value": "2 × 3/4 in ball valves"
+      },
+      {
+        "label": "Weight",
+        "value": "1,050 kg"
+      }
+    ],
+    "stock": "enquire",
+    "featured": false,
+    "createdAt": "2026-01-23T00:00:00.000Z",
+    "updatedAt": "2026-01-23T00:00:00.000Z",
+    "priceLabel": "Price on request",
+    "datasheetUrl": "#"
+  },
+  {
+    "id": "prod-comp-zs55",
+    "name": "Atlas Copco ZS 55 rotary screw blower 55 kW",
+    "slug": "atlas-copco-zs-55-rotary-screw-blower-55-kw",
+    "sku": "COMP-ZS55",
+    "brand": "Atlas Copco",
+    "categoryId": "cat-compressors",
+    "shortDescription": "Oil-free screw blower for wastewater aeration and pneumatic conveying, up to 1.2 bar(g).",
+    "description": "The ZS 55 replaces lobe blowers with 30% lower energy use. The oil-free screw element, integrated VSD and Elektronikon controller deliver variable flow at constant pressure. Supplied with inlet filter, silencer, non-return valve and sound enclosure.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Dmuchawy_%C5%9Brubowe.jpg/1280px-Dmuchawy_%C5%9Brubowe.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Motor",
+        "value": "55 kW, IE3"
+      },
+      {
+        "label": "Flow",
+        "value": "600 to 2,800 m³/h"
+      },
+      {
+        "label": "Pressure",
+        "value": "Up to 1.2 bar(g)"
+      },
+      {
+        "label": "Control",
+        "value": "Elektronikon Mk5 Touch with VSD"
+      },
+      {
+        "label": "Noise level",
+        "value": "72 dB(A)"
+      },
+      {
+        "label": "Dimensions",
+        "value": "1,990 × 1,030 × 1,760 mm"
+      }
+    ],
+    "stock": "on_order",
+    "featured": true,
+    "createdAt": "2026-01-26T00:00:00.000Z",
+    "updatedAt": "2026-01-26T00:00:00.000Z"
+  },
+  {
+    "id": "prod-pmp-cr32",
+    "name": "Grundfos CR 32-4 vertical multistage pump",
+    "slug": "grundfos-cr-32-4-vertical-multistage-pump",
+    "sku": "PMP-CR32",
+    "brand": "Grundfos",
+    "categoryId": "cat-pumps",
+    "shortDescription": "Stainless vertical multistage pump for boosting, washing and process water, 32 m³/h at 60 m.",
+    "description": "The CR range is the workhorse of pressure boosting and process duty. The CR 32-4 moves 32 m³/h against 60 m head with a cartridge shaft seal that can be changed without disturbing the motor. Fit with a Grundfos CUE drive for constant-pressure control.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Multistage_centrifugal_pump.jpg/1280px-Multistage_centrifugal_pump.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Flow",
+        "value": "32 m³/h nominal"
+      },
+      {
+        "label": "Head",
+        "value": "60 m at 4 stages"
+      },
+      {
+        "label": "Motor",
+        "value": "7.5 kW, 400 V, IE3"
+      },
+      {
+        "label": "Materials",
+        "value": "Stainless 304 impellers, cast iron base"
+      },
+      {
+        "label": "Max liquid temperature",
+        "value": "120 °C"
+      },
+      {
+        "label": "Connections",
+        "value": "DN 65 PN 16 flanges"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": true,
+    "createdAt": "2026-01-29T00:00:00.000Z",
+    "updatedAt": "2026-01-29T00:00:00.000Z",
+    "priceLabel": "₱186,000"
+  },
+  {
+    "id": "prod-pmp-ktz37",
+    "name": "Tsurumi KTZ 3.7 kW submersible dewatering pump",
+    "slug": "tsurumi-ktz-3-7-kw-submersible-dewatering-pump",
+    "sku": "PMP-KTZ37",
+    "brand": "Tsurumi",
+    "categoryId": "cat-pumps",
+    "shortDescription": "Heavy-duty 3-inch submersible for construction dewatering, slurry and flood water.",
+    "description": "The KTZ series handles sand-laden water that destroys lighter pumps. High-chrome impeller and wear plate, dual silicon-carbide seals, oil lifter lubrication and a motor protector for dry running. Sits on a stand for continuous operation at low water levels.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/A_photo_on_Submersible_Pump.JPG/1280px-A_photo_on_Submersible_Pump.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Submersible_pump_in_action.jpg/1280px-Submersible_pump_in_action.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Motor",
+        "value": "3.7 kW, 400 V 3-phase"
+      },
+      {
+        "label": "Max flow",
+        "value": "1,000 L/min"
+      },
+      {
+        "label": "Max head",
+        "value": "26 m"
+      },
+      {
+        "label": "Discharge",
+        "value": "80 mm (3 in)"
+      },
+      {
+        "label": "Solids passage",
+        "value": "8.5 mm"
+      },
+      {
+        "label": "Cable",
+        "value": "8 m, with plug"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-02-01T00:00:00.000Z",
+    "updatedAt": "2026-02-01T00:00:00.000Z",
+    "priceLabel": "₱58,900"
+  },
+  {
+    "id": "prod-pmp-wah64",
+    "name": "Warman 6/4 AH horizontal slurry pump",
+    "slug": "warman-6-4-ah-horizontal-slurry-pump",
+    "sku": "PMP-WAH64",
+    "brand": "Warman",
+    "categoryId": "cat-pumps",
+    "shortDescription": "Heavy-duty horizontal slurry pump for mining, aggregate and dredging duties.",
+    "description": "The AH series is the world standard for abrasive slurry. The 6/4 AH model pumps up to 440 m³/h with replaceable high-chrome or rubber liners. Supplied bare-shaft with V-belt drive package and motor sized to your duty point.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Warman_centrifugal_pump.jpg/1280px-Warman_centrifugal_pump.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Flow",
+        "value": "Up to 440 m³/h"
+      },
+      {
+        "label": "Head",
+        "value": "Up to 50 m"
+      },
+      {
+        "label": "Inlet / outlet",
+        "value": "150 mm / 100 mm"
+      },
+      {
+        "label": "Liners",
+        "value": "A05 high-chrome or R55 natural rubber"
+      },
+      {
+        "label": "Drive",
+        "value": "Belt drive, motor 30 to 75 kW"
+      },
+      {
+        "label": "Weight",
+        "value": "680 kg bare shaft"
+      }
+    ],
+    "stock": "enquire",
+    "featured": false,
+    "createdAt": "2026-02-04T00:00:00.000Z",
+    "updatedAt": "2026-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "prod-pmp-skid2",
+    "name": "Northline duty-standby cooling water pump skid",
+    "slug": "northline-duty-standby-cooling-water-pump-skid",
+    "sku": "PMP-SKID2",
+    "brand": "Northline",
+    "categoryId": "cat-pumps",
+    "shortDescription": "Pre-piped duty-standby end-suction pump set with VSD panel and manifold valves.",
+    "description": "Delivered as a complete skid: two end-suction pumps, suction and discharge manifolds with isolation and non-return valves, pressure gauges and a wall-mount VSD control panel with auto changeover. Configured from 10 to 200 m³/h.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Closed_cooling_water_system_pumps_and_its_pipe_connections.jpg/1280px-Closed_cooling_water_system_pumps_and_its_pipe_connections.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "Duty / standby, 2 pumps"
+      },
+      {
+        "label": "Flow range",
+        "value": "10 to 200 m³/h"
+      },
+      {
+        "label": "Motors",
+        "value": "4 to 37 kW, IE3"
+      },
+      {
+        "label": "Control",
+        "value": "VSD panel with automatic changeover"
+      },
+      {
+        "label": "Manifold",
+        "value": "Carbon steel, epoxy coated"
+      },
+      {
+        "label": "Lead time",
+        "value": "6 to 8 weeks"
+      }
+    ],
+    "stock": "enquire",
+    "featured": false,
+    "createdAt": "2026-02-07T00:00:00.000Z",
+    "updatedAt": "2026-02-07T00:00:00.000Z",
+    "priceLabel": "Price on request"
+  },
+  {
+    "id": "prod-wld-ir140",
+    "name": "Lüsqtoff Iron-140 inverter MMA welder 140 A",
+    "slug": "lusqtoff-iron-140-inverter-mma-welder-140-a",
+    "sku": "WLD-IR140",
+    "brand": "Lüsqtoff",
+    "categoryId": "cat-welding",
+    "shortDescription": "Compact IGBT stick welder for site and maintenance, runs 2.5 and 3.2 mm electrodes on a 230 V outlet.",
+    "description": "A 5.2 kg inverter that fits in a tool bag yet welds 3.2 mm rods at 60% duty. Hot start, arc force and anti-stick make it forgiving for occasional welders. Ships with electrode holder, earth clamp and shoulder strap.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Soldadora_inverter_L%C3%BCsqtoff_Iron-140_%281%29.jpg/1280px-Soldadora_inverter_L%C3%BCsqtoff_Iron-140_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%D0%98%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D1%8B.JPG/1280px-%D0%98%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5_%D1%81%D0%B2%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D1%8B.JPG"
+    ],
+    "specs": [
+      {
+        "label": "Output",
+        "value": "20 to 140 A DC"
+      },
+      {
+        "label": "Duty cycle",
+        "value": "60% at 140 A"
+      },
+      {
+        "label": "Input",
+        "value": "230 V single phase, 16 A"
+      },
+      {
+        "label": "Electrodes",
+        "value": "1.6 to 3.2 mm"
+      },
+      {
+        "label": "Technology",
+        "value": "IGBT inverter"
+      },
+      {
+        "label": "Weight",
+        "value": "5.2 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": true,
+    "createdAt": "2026-02-10T00:00:00.000Z",
+    "updatedAt": "2026-02-10T00:00:00.000Z",
+    "priceLabel": "₱9,800"
+  },
+  {
+    "id": "prod-wld-ct300",
+    "name": "Oerlikon CITOTIG 300 DC TIG and MMA welder",
+    "slug": "oerlikon-citotig-300-dc-tig-and-mma-welder",
+    "sku": "WLD-CT300",
+    "brand": "Oerlikon",
+    "categoryId": "cat-welding",
+    "shortDescription": "Industrial 300 A DC TIG inverter with pulse, HF or lift start and MMA mode, water-cooled torch ready.",
+    "description": "For stainless and carbon steel fabrication where weld quality matters. Full pulse control, pre and post gas timing, 2T/4T and slope settings, and a durable front panel for shop use. Add the CoolTec unit and a 4 m water-cooled torch for heavy sections.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TIG_varilni_aparat_-_%C4%8Delna_plo%C5%A1%C4%8Da.jpg/1280px-TIG_varilni_aparat_-_%C4%8Delna_plo%C5%A1%C4%8Da.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tig_Welding.jpg/1280px-Tig_Welding.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Output",
+        "value": "5 to 300 A DC"
+      },
+      {
+        "label": "Duty cycle",
+        "value": "40% at 300 A, 100% at 220 A"
+      },
+      {
+        "label": "Input",
+        "value": "400 V 3-phase"
+      },
+      {
+        "label": "Processes",
+        "value": "TIG DC, pulsed TIG, MMA"
+      },
+      {
+        "label": "Start",
+        "value": "HF or lift arc"
+      },
+      {
+        "label": "Weight",
+        "value": "28 kg"
+      }
+    ],
+    "stock": "on_order",
+    "featured": false,
+    "createdAt": "2026-02-13T00:00:00.000Z",
+    "updatedAt": "2026-02-13T00:00:00.000Z",
+    "priceLabel": "Price on request",
+    "datasheetUrl": "#"
+  },
+  {
+    "id": "prod-wld-reg2",
+    "name": "Harris twin-gauge argon and CO2 regulator",
+    "slug": "harris-twin-gauge-argon-and-co2-regulator",
+    "sku": "WLD-REG2",
+    "brand": "Harris",
+    "categoryId": "cat-welding",
+    "shortDescription": "Single-stage regulator with flow gauge for MIG and TIG shielding gas, 0 to 30 L/min.",
+    "description": "Brass-body regulator with cylinder pressure and flow gauges, a sintered inlet filter and a 5/8 BSP outlet. Suits argon, argon mixes and CO2 cylinders. Sold individually or as part of a MIG setup kit with hose and clamps.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Gas_regulator_GMAW_MIG_MAG.jpg/1280px-Gas_regulator_GMAW_MIG_MAG.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Gas",
+        "value": "Argon, argon mixes, CO2"
+      },
+      {
+        "label": "Inlet pressure",
+        "value": "Up to 230 bar"
+      },
+      {
+        "label": "Flow range",
+        "value": "0 to 30 L/min"
+      },
+      {
+        "label": "Inlet",
+        "value": "5/8 BSP (type 10 cylinder)"
+      },
+      {
+        "label": "Outlet",
+        "value": "5/8 BSP with hose tail"
+      },
+      {
+        "label": "Body",
+        "value": "Forged brass"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-02-16T00:00:00.000Z",
+    "updatedAt": "2026-02-16T00:00:00.000Z",
+    "priceLabel": "₱3,450"
+  },
+  {
+    "id": "prod-mh-h25xt",
+    "name": "Hyster H2.5XT diesel counterbalance forklift 2.5 t",
+    "slug": "hyster-h2-5xt-diesel-counterbalance-forklift-2-5-t",
+    "sku": "MH-H25XT",
+    "brand": "Hyster",
+    "categoryId": "cat-handling",
+    "shortDescription": "Rugged 2.5 tonne diesel forklift with 4.5 m triplex mast, side shift and overhead guard.",
+    "description": "The H2.5XT is built for yards, timber and building supply. A Yanmar 2.6 L engine, wet disc brakes and a 4,500 mm triplex mast with full free lift handle container work. Includes side shift, solid pneumatic tyres and an LED work light kit.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Lifting_Park_Supplies_with_Forklift_%2851966479517%29.jpg/1280px-Lifting_Park_Supplies_with_Forklift_%2851966479517%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Forklift_Operator_Smile.jpg/1280px-Forklift_Operator_Smile.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Rated capacity",
+        "value": "2,500 kg at 500 mm load centre"
+      },
+      {
+        "label": "Lift height",
+        "value": "4,500 mm triplex, full free lift"
+      },
+      {
+        "label": "Engine",
+        "value": "Yanmar 4TNE98, 2.6 L diesel"
+      },
+      {
+        "label": "Tyres",
+        "value": "Solid pneumatic"
+      },
+      {
+        "label": "Attachments",
+        "value": "Integral side shift"
+      },
+      {
+        "label": "Turning radius",
+        "value": "2,290 mm"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": true,
+    "createdAt": "2026-02-19T00:00:00.000Z",
+    "updatedAt": "2026-02-19T00:00:00.000Z",
+    "priceLabel": "From ₱1,650,000"
+  },
+  {
+    "id": "prod-mh-fd150",
+    "name": "Komatsu FD150E heavy-duty forklift 15 t",
+    "slug": "komatsu-fd150e-heavy-duty-forklift-15-t",
+    "sku": "MH-FD150",
+    "brand": "Komatsu",
+    "categoryId": "cat-handling",
+    "shortDescription": "Fifteen tonne diesel forklift for containers, steel coil and heavy machinery handling.",
+    "description": "For ports, steel yards and heavy manufacturing. The FD150E lifts 15 t at a 600 mm load centre with a 3,000 mm duplex mast, hydrostatic steering and a cab-mounted load-weighing display. Supplied with fork positioner and hydraulic fork extensions on request.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Komatsu_FD150E_forklift.JPEG/1280px-Komatsu_FD150E_forklift.JPEG"
+    ],
+    "specs": [
+      {
+        "label": "Rated capacity",
+        "value": "15,000 kg at 600 mm load centre"
+      },
+      {
+        "label": "Lift height",
+        "value": "3,000 mm duplex"
+      },
+      {
+        "label": "Engine",
+        "value": "Komatsu SAA6D107E, 6-cylinder diesel"
+      },
+      {
+        "label": "Fork length",
+        "value": "2,400 mm standard"
+      },
+      {
+        "label": "Service weight",
+        "value": "21,500 kg"
+      },
+      {
+        "label": "Lead time",
+        "value": "10 to 12 weeks"
+      }
+    ],
+    "stock": "enquire",
+    "featured": false,
+    "createdAt": "2026-02-22T00:00:00.000Z",
+    "updatedAt": "2026-02-22T00:00:00.000Z"
+  },
+  {
+    "id": "prod-mh-epj20",
+    "name": "Northline EPJ-20 electric pallet jack 2.0 t",
+    "slug": "northline-epj-20-electric-pallet-jack-2-0-t",
+    "sku": "MH-EPJ20",
+    "brand": "Northline",
+    "categoryId": "cat-handling",
+    "shortDescription": "Walk-behind lithium pallet truck for loading docks and retail back rooms.",
+    "description": "Replaces manual pallet trucks for operators moving more than 50 pallets a shift. The 48 V lithium battery charges from a wall socket in two hours, the tiller has creep speed for tight trailers, and the frame carries 2,000 kg on standard 1,150 mm forks.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Electric_pallet_jack.jpg/1280px-Electric_pallet_jack.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Pallet_truck_moving_paper_reel.jpg/1280px-Pallet_truck_moving_paper_reel.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Rated capacity",
+        "value": "2,000 kg"
+      },
+      {
+        "label": "Fork length",
+        "value": "1,150 mm"
+      },
+      {
+        "label": "Battery",
+        "value": "48 V 20 Ah lithium, removable"
+      },
+      {
+        "label": "Charge time",
+        "value": "2 h to 100%"
+      },
+      {
+        "label": "Travel speed",
+        "value": "4.5 km/h laden"
+      },
+      {
+        "label": "Weight",
+        "value": "140 kg with battery"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-02-25T00:00:00.000Z",
+    "updatedAt": "2026-02-25T00:00:00.000Z",
+    "priceLabel": "₱98,000"
+  },
+  {
+    "id": "prod-mh-c25r",
+    "name": "Clark C25 LPG forklift 2.5 t, refurbished",
+    "slug": "clark-c25-lpg-forklift-2-5-t-refurbished",
+    "sku": "MH-C25R",
+    "brand": "Clark",
+    "categoryId": "cat-handling",
+    "shortDescription": "Workshop-refurbished 2.5 t LPG forklift with new tyres, serviced mast and six-month warranty.",
+    "description": "Our refurbished units get a full engine service, new tyres and chains, mast inspection and repaint. The C25 LPG is a clean-running indoor truck with a 4,000 mm triplex mast and side shift. Each unit is sold with a load test certificate and a six-month parts and labour warranty.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Clark_forklift_Keran_Hallit.jpg/1280px-Clark_forklift_Keran_Hallit.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/TCM_FORKLIFT_%282%29.jpg/1280px-TCM_FORKLIFT_%282%29.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Rated capacity",
+        "value": "2,500 kg at 500 mm load centre"
+      },
+      {
+        "label": "Lift height",
+        "value": "4,000 mm triplex"
+      },
+      {
+        "label": "Fuel",
+        "value": "LPG"
+      },
+      {
+        "label": "Hours",
+        "value": "Approximately 6,200"
+      },
+      {
+        "label": "Condition",
+        "value": "Refurbished, load tested"
+      },
+      {
+        "label": "Warranty",
+        "value": "6 months parts and labour"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-02-28T00:00:00.000Z",
+    "updatedAt": "2026-02-28T00:00:00.000Z",
+    "priceLabel": "₱620,000"
+  },
+  {
+    "id": "prod-pt-dcf885",
+    "name": "DeWalt DCF885 20V MAX impact driver kit",
+    "slug": "dewalt-dcf885-20v-max-impact-driver-kit",
+    "sku": "PT-DCF885",
+    "brand": "DeWalt",
+    "categoryId": "cat-tools",
+    "shortDescription": "Compact 1/4-inch hex impact driver with two 2.0 Ah batteries, charger and kit box.",
+    "description": "The DCF885 drives 150 mm screws into hardwood all day. Three LED work lights, a one-handed bit loader and a 140 mm head length for tight spaces. Kit includes two 2.0 Ah XR batteries, a fast charger and a TSTAK-compatible case.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dewalt_DCF885C2_Impact_Driver.jpg/1280px-Dewalt_DCF885C2_Impact_Driver.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Max torque",
+        "value": "155 Nm"
+      },
+      {
+        "label": "Speed",
+        "value": "0 to 2,800 rpm"
+      },
+      {
+        "label": "Impact rate",
+        "value": "0 to 3,200 ipm"
+      },
+      {
+        "label": "Chuck",
+        "value": "1/4 in hex, quick release"
+      },
+      {
+        "label": "Batteries",
+        "value": "2 × 20 V 2.0 Ah"
+      },
+      {
+        "label": "Weight",
+        "value": "1.0 kg with battery"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": true,
+    "createdAt": "2026-03-03T00:00:00.000Z",
+    "updatedAt": "2026-03-03T00:00:00.000Z",
+    "priceLabel": "₱11,900"
+  },
+  {
+    "id": "prod-pt-dcs391",
+    "name": "DeWalt DCS391 20V cordless circular saw 165 mm",
+    "slug": "dewalt-dcs391-20v-cordless-circular-saw-165-mm",
+    "sku": "PT-DCS391",
+    "brand": "DeWalt",
+    "categoryId": "cat-tools",
+    "shortDescription": "Cordless 165 mm circular saw with 55 mm depth of cut for framing and sheet goods.",
+    "description": "A full-size cut from a cordless saw. The 165 mm blade cuts 55 mm at 90° and 42 mm at 45°, the magnesium shoe stays flat, and an electric brake stops the blade in seconds. Supplied bare or with batteries.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/DeWalt_circular_saw.jpg/1280px-DeWalt_circular_saw.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/DeWalt_circular_saw_in_use.jpg/1280px-DeWalt_circular_saw_in_use.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Blade",
+        "value": "165 mm, 20 mm bore"
+      },
+      {
+        "label": "Depth of cut",
+        "value": "55 mm at 90°, 42 mm at 45°"
+      },
+      {
+        "label": "Speed",
+        "value": "3,700 rpm"
+      },
+      {
+        "label": "Bevel",
+        "value": "0 to 50°"
+      },
+      {
+        "label": "Battery platform",
+        "value": "20 V MAX XR"
+      },
+      {
+        "label": "Weight",
+        "value": "3.6 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-03-06T00:00:00.000Z",
+    "updatedAt": "2026-03-06T00:00:00.000Z",
+    "priceLabel": "₱13,400"
+  },
+  {
+    "id": "prod-pt-gbh226",
+    "name": "Bosch GBH 2-26 DRE rotary hammer SDS-plus",
+    "slug": "bosch-gbh-2-26-dre-rotary-hammer-sds-plus",
+    "sku": "PT-GBH226",
+    "brand": "Bosch",
+    "categoryId": "cat-tools",
+    "shortDescription": "The standard 2 kg class corded rotary hammer for anchors, chasing and light chiselling.",
+    "description": "Drills 26 mm holes in concrete all day with 2.7 J of impact energy. Rotation stop for chiselling, variable speed, safety clutch and a vibration-damped handle. Supplied in a case with an auxiliary handle and depth stop.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bosch_GBH2-26_professional_Rotary_Hammer_Drill_PICT4578.jpg/1280px-Bosch_GBH2-26_professional_Rotary_Hammer_Drill_PICT4578.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Hammer_Drill_AccuMaster.jpg/1280px-Hammer_Drill_AccuMaster.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Impact energy",
+        "value": "2.7 J"
+      },
+      {
+        "label": "Power input",
+        "value": "800 W"
+      },
+      {
+        "label": "Drilling range in concrete",
+        "value": "4 to 26 mm"
+      },
+      {
+        "label": "Chuck",
+        "value": "SDS-plus"
+      },
+      {
+        "label": "Modes",
+        "value": "Drill, hammer drill, chisel"
+      },
+      {
+        "label": "Weight",
+        "value": "2.7 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-03-09T00:00:00.000Z",
+    "updatedAt": "2026-03-09T00:00:00.000Z",
+    "priceLabel": "₱8,750"
+  },
+  {
+    "id": "prod-pt-wh36dc",
+    "name": "HiKOKI WH36DC multi-volt impact driver",
+    "slug": "hikoki-wh36dc-multi-volt-impact-driver",
+    "sku": "PT-WH36DC",
+    "brand": "HiKOKI",
+    "categoryId": "cat-tools",
+    "shortDescription": "Brushless 36 V impact driver with 210 Nm torque and triple-hammer mechanism.",
+    "description": "The WH36DC uses HiKOKI multi-volt batteries that run both 18 V and 36 V tools. The triple hammer design reduces vibration and screw cam-out, and four speed settings plus a self-drilling screw mode cover roofing to cabinetry.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/HiKOKI_cordless_impact_driver_WH36DC.jpg/1280px-HiKOKI_cordless_impact_driver_WH36DC.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Cordless_Power_Drill_%2849253538983%29.jpg/1280px-Cordless_Power_Drill_%2849253538983%29.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Max torque",
+        "value": "210 Nm"
+      },
+      {
+        "label": "Speed",
+        "value": "0 to 3,400 rpm"
+      },
+      {
+        "label": "Impact rate",
+        "value": "0 to 4,100 ipm"
+      },
+      {
+        "label": "Battery",
+        "value": "36 V multi-volt, 2.5 Ah"
+      },
+      {
+        "label": "Chuck",
+        "value": "1/4 in hex"
+      },
+      {
+        "label": "Weight",
+        "value": "1.6 kg with battery"
+      }
+    ],
+    "stock": "on_order",
+    "featured": false,
+    "createdAt": "2026-03-12T00:00:00.000Z",
+    "updatedAt": "2026-03-12T00:00:00.000Z",
+    "priceLabel": "₱16,200"
+  },
+  {
+    "id": "prod-pt-iw12",
+    "name": "Northline pneumatic impact wrench 1/2 in drive",
+    "slug": "northline-pneumatic-impact-wrench-1-2-in-drive",
+    "sku": "PT-IW12",
+    "brand": "Northline",
+    "categoryId": "cat-tools",
+    "shortDescription": "Twin-hammer air impact wrench for tyre shops and plant maintenance, 680 Nm.",
+    "description": "Aluminium body, twin-hammer clutch and a three-position power regulator. Runs on 90 psi shop air from a 3/8 in hose. Ideal for wheel nuts, machinery bolts and conveyor maintenance.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Impact_wrench_01.jpg/1280px-Impact_wrench_01.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Drive",
+        "value": "1/2 in square"
+      },
+      {
+        "label": "Max torque",
+        "value": "680 Nm"
+      },
+      {
+        "label": "Free speed",
+        "value": "7,000 rpm"
+      },
+      {
+        "label": "Air consumption",
+        "value": "120 L/min at 90 psi"
+      },
+      {
+        "label": "Air inlet",
+        "value": "1/4 in NPT"
+      },
+      {
+        "label": "Weight",
+        "value": "2.6 kg"
+      }
+    ],
+    "stock": "in_stock",
+    "featured": false,
+    "createdAt": "2026-03-15T00:00:00.000Z",
+    "updatedAt": "2026-03-15T00:00:00.000Z",
+    "priceLabel": "₱4,200"
+  }
+]
