@@ -1,10 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { AdminShell } from '@/components/layout/AdminShell'
 import { PublicLayout } from '@/components/layout/PublicLayout'
+import { CategoriesAdminPage } from '@/pages/admin/CategoriesAdminPage'
 import { DashboardPage } from '@/pages/admin/DashboardPage'
 import { LoginPage } from '@/pages/admin/LoginPage'
 import { ProductEditPage } from '@/pages/admin/ProductEditPage'
 import { ProductsAdminPage } from '@/pages/admin/ProductsAdminPage'
+import { SettingsAdminPage } from '@/pages/admin/SettingsAdminPage'
+import { SlidesAdminPage } from '@/pages/admin/SlidesAdminPage'
 import { AboutPage } from '@/pages/public/AboutPage'
 import { ContactPage } from '@/pages/public/ContactPage'
 import { HomePage } from '@/pages/public/HomePage'
@@ -38,6 +41,9 @@ export const router = createBrowserRouter([
           { path: 'products', element: <ProductsAdminPage /> },
           { path: 'products/new', element: <ProductEditPage /> },
           { path: 'products/:id', element: <ProductEditPage /> },
+          { path: 'categories', element: <CategoriesAdminPage /> },
+          { path: 'slides', element: <SlidesAdminPage /> },
+          { path: 'settings', element: <SettingsAdminPage /> },
         ],
       },
     ],
