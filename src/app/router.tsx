@@ -3,6 +3,8 @@ import { AdminShell } from '@/components/layout/AdminShell'
 import { PublicLayout } from '@/components/layout/PublicLayout'
 import { DashboardPage } from '@/pages/admin/DashboardPage'
 import { LoginPage } from '@/pages/admin/LoginPage'
+import { ProductEditPage } from '@/pages/admin/ProductEditPage'
+import { ProductsAdminPage } from '@/pages/admin/ProductsAdminPage'
 import { AboutPage } from '@/pages/public/AboutPage'
 import { ContactPage } from '@/pages/public/ContactPage'
 import { HomePage } from '@/pages/public/HomePage'
@@ -31,7 +33,12 @@ export const router = createBrowserRouter([
     children: [
       {
         element: <AdminShell />,
-        children: [{ index: true, element: <DashboardPage /> }],
+        children: [
+          { index: true, element: <DashboardPage /> },
+          { path: 'products', element: <ProductsAdminPage /> },
+          { path: 'products/new', element: <ProductEditPage /> },
+          { path: 'products/:id', element: <ProductEditPage /> },
+        ],
       },
     ],
   },
