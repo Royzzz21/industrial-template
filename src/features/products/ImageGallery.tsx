@@ -1,9 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { cn } from '@/lib/cn'
 
 export function ImageGallery({ images, alt }: { images: string[]; alt: string }) {
   const [index, setIndex] = useState(0)
-  useEffect(() => setIndex(0), [images])
   const list = images.length ? images : ['']
   return (
     <div>

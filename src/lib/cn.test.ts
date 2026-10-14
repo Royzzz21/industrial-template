@@ -5,5 +5,6 @@ test('merges conflicting tailwind classes, last wins', () => {
 })
 
 test('drops falsy values', () => {
-  expect(cn('a', false && 'b', undefined, 'c')).toBe('a c')
+  const hidden: boolean = Math.random() > 2
+  expect(cn('a', hidden && 'b', undefined, 'c')).toBe('a c')
 })

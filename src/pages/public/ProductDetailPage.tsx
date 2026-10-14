@@ -48,7 +48,7 @@ export function ProductDetailPage() {
         />
       </Container>
       <Container className="grid gap-8 pb-10 lg:grid-cols-2 lg:gap-12 lg:pb-16">
-        <ImageGallery images={product.images} alt={product.name} />
+        <ImageGallery key={product.id} images={product.images} alt={product.name} />
         <div>
           <div className="flex flex-wrap items-center gap-2 text-sm text-steel-500">
             <span>{product.brand}</span>

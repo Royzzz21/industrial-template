@@ -13,7 +13,7 @@ export function PublicLayout() {
         <Outlet />
       </main>
       <Footer />
-      <ScrollRestoration />
+      <ScrollRestoration getKey={(location) => location.pathname + location.search} />
     </div>
   )
 }
