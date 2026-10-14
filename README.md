@@ -32,7 +32,7 @@ Public site
 
 Admin at `/admin`
 
-- Demo login: `admin@northline.example` / `northline2026` (change it in Settings)
+- Demo login is seeded in `src/data/seed/settings.json` (change it there or in Admin → Settings)
 - Dashboard, Products (create, edit, delete, image upload, specs editor),
   Categories, Carousel slides (reorder, enable), Enquiries inbox, Site settings,
   and Data tools (export JSON, import JSON, reset to seed)

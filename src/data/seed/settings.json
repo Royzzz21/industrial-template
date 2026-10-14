@@ -36,5 +36,5 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Engineer_inspecting_the_winding_machine.jpg/1280px-Engineer_inspecting_the_winding_machine.jpg"
     ]
   },
-  "admin": { "email": "admin@northline.example", "password": "northline2026" }
+  "admin": { "email": "user", "password": "123" }
 }

@@ -24,7 +24,7 @@ test('redirects to the login page when not authenticated', () => {
 })
 
 test('renders the protected page after login', () => {
-  useAuthStore.getState().login('admin@northline.example', 'northline2026')
+  useAuthStore.getState().login('user', '123')
   render(<App />)
   expect(screen.getByRole('heading', { name: 'Dashboard' })).toBeInTheDocument()
 })

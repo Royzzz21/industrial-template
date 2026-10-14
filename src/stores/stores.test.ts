@@ -2,7 +2,7 @@ import { seed } from '@/data/seed'
 import { useCategoriesStore } from './useCategoriesStore'
 import { useProductsStore } from './useProductsStore'
 import { useSlidesStore } from './useSlidesStore'
-import { useSettingsStore } from './useSettingsStore'
+import { migrateSettings, useSettingsStore } from './useSettingsStore'
 import { useQuoteStore } from './useQuoteStore'
 import { useEnquiriesStore } from './useEnquiriesStore'
 import { useAuthStore } from './useAuthStore'
@@ -111,11 +111,24 @@ describe('enquiries store', () => {
   })
 })
 
+describe('settings migration', () => {
+  test('v1 state gets the current seed admin login and keeps everything else', () => {
+    const old = { ...seed.settings, company: { ...seed.settings.company, name: 'Kept Co' }, admin: { email: 'admin@old.example', password: 'old' } }
+    const out = migrateSettings({ settings: old }, 1)
+    expect(out.settings.company.name).toBe('Kept Co')
+    expect(out.settings.admin).toEqual(seed.settings.admin)
+  })
+  test('current-version state passes through unchanged', () => {
+    const cur = { ...seed.settings, admin: { email: 'owner', password: 'pw' } }
+    expect(migrateSettings({ settings: cur }, 2).settings.admin).toEqual({ email: 'owner', password: 'pw' })
+  })
+})
+
 describe('auth store', () => {
   test('login succeeds only with the settings credentials', () => {
-    expect(useAuthStore.getState().login('admin@northline.example', 'wrong')).toBe(false)
+    expect(useAuthStore.getState().login('user', 'wrong')).toBe(false)
     expect(useAuthStore.getState().isAuthenticated).toBe(false)
-    expect(useAuthStore.getState().login('admin@northline.example', 'northline2026')).toBe(true)
+    expect(useAuthStore.getState().login('user', '123')).toBe(true)
     expect(useAuthStore.getState().isAuthenticated).toBe(true)
     useAuthStore.getState().logout()
     expect(useAuthStore.getState().isAuthenticated).toBe(false)

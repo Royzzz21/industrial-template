@@ -29,5 +29,5 @@ test('has enabled slides and featured products for the home page', () => {
 })
 
 test('settings carry the demo admin credentials', () => {
-  expect(seed.settings.admin).toEqual({ email: 'admin@northline.example', password: 'northline2026' })
+  expect(seed.settings.admin).toEqual({ email: 'user', password: '123' })
 })

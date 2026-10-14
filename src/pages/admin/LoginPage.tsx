@@ -5,16 +5,13 @@ import { AlertTriangle } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
 import { Logo } from '@/components/layout/Logo'
-import { seed } from '@/data/seed'
-import { useAuthStore, useSettingsStore } from '@/stores'
+import { useAuthStore } from '@/stores'
 
 interface Values { email: string; password: string }
 
 export function LoginPage() {
   const isAuthenticated = useAuthStore((s) => s.isAuthenticated)
   const login = useAuthStore((s) => s.login)
-  const admin = useSettingsStore((s) => s.settings.admin)
-  const isSeedLogin = admin.email === seed.settings.admin.email && admin.password === seed.settings.admin.password
   const navigate = useNavigate()
   const location = useLocation()
   const [failed, setFailed] = useState(false)
@@ -39,11 +36,11 @@ export function LoginPage() {
           <h1 className="text-3xl">Sign in to admin</h1>
           <p className="mt-1 text-sm text-steel-500">Manage products, categories, carousel slides and enquiries.</p>
           <form onSubmit={handleSubmit(onSubmit)} noValidate className="mt-6 space-y-4">
-            <Input label="Email" type="email" autoComplete="username" error={errors.email?.message} {...register('email', { required: 'Enter your email' })} />
+            <Input label="Username" type="text" autoComplete="username" error={errors.email?.message} {...register('email', { required: 'Enter your username' })} />
             <Input label="Password" type="password" autoComplete="current-password" error={errors.password?.message} {...register('password', { required: 'Enter your password' })} />
             {failed && (
               <p role="alert" className="rounded border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
-                Email or password is incorrect.
+                Username or password is incorrect.
               </p>
             )}
             <Button type="submit" className="w-full" size="lg">
@@ -54,11 +51,6 @@ export function LoginPage() {
             <AlertTriangle className="h-4 w-4 shrink-0" aria-hidden="true" />
             <p>
               Demo authentication. Replace with a real backend before production.
-              {isSeedLogin && (
-                <>
-                  {' '}Demo login: <strong>{admin.email}</strong> / <strong>{admin.password}</strong>
-                </>
-              )}
             </p>
           </div>
         </div>

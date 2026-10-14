@@ -26,7 +26,7 @@ const schema = z.object({
     images: z.string(),
   }),
   admin: z.object({
-    email: z.string().trim().email('Enter a valid email'),
+    email: z.string().trim().min(1, 'Enter a username'),
     password: z.string().min(6, 'Use at least 6 characters'),
   }),
 })
@@ -141,7 +141,7 @@ export function SettingsForm() {
       <Card title="Admin login">
         <p className="text-xs text-amber-900">Demo credentials stored in this browser. Replace with real authentication before production.</p>
         <div className="grid gap-4 sm:grid-cols-2">
-          <Input label="Admin email" type="email" autoComplete="off" error={errors.admin?.email?.message} {...register('admin.email')} />
+          <Input label="Admin username" type="text" autoComplete="off" error={errors.admin?.email?.message} {...register('admin.email')} />
           <Input label="Admin password" type="text" autoComplete="off" error={errors.admin?.password?.message} {...register('admin.password')} />
         </div>
       </Card>
