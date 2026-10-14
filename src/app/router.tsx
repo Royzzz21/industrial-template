@@ -65,4 +65,7 @@ export const router = createBrowserRouter([
       },
     ],
   },
-])
+], {
+  // Vite's BASE_URL is '/' in dev and '/<repo>/' when built for GitHub Pages.
+  basename: import.meta.env.BASE_URL.replace(/\/$/, '') || '/',
+})
