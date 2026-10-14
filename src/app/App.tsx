@@ -1,3 +1,11 @@
+import { RouterProvider } from 'react-router-dom'
+import { ToastProvider } from '@/components/ui/Toast'
+import { router } from './router'
+
 export function App() {
-  return <h1 className="p-8 text-4xl">Northline Industrial Supply</h1>
+  return (
+    <ToastProvider>
+      <RouterProvider router={router} />
+    </ToastProvider>
+  )
 }
