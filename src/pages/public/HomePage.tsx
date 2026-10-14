@@ -28,14 +28,14 @@ export function HomePage() {
     <>
       <HeroCarousel slides={slides} />
       <IndustriesStrip />
-      <Section aria-labelledby="categories-title">
+      <Section>
         <SectionHeading
           title="Equipment by category"
           lead="Six product families covering power, air, water, fabrication, lifting and hand tools."
         />
         <CategoryGrid categories={categories} counts={counts} />
       </Section>
-      <Section tone="concrete" aria-labelledby="featured-title">
+      <Section tone="concrete">
         <SectionHeading
           title="Featured products"
           lead="Popular units kept in stock at our Calamba warehouse."

@@ -27,7 +27,7 @@ export const useProductsStore = create<ProductsState>()(
         const product: Product = {
           ...input,
           id: newId('prod'),
-          slug: uniqueSlug(slugify(input.slug || input.name), taken),
+          slug: uniqueSlug(slugify(input.slug || input.name) || 'product', taken),
           createdAt: now,
           updatedAt: now,
         }
@@ -41,7 +41,7 @@ export const useProductsStore = create<ProductsState>()(
         const updated: Product = {
           ...existing,
           ...patch,
-          slug: uniqueSlug(slugify(patch.slug || patch.name), taken),
+          slug: uniqueSlug(slugify(patch.slug || patch.name) || 'product', taken),
           updatedAt: new Date().toISOString(),
         }
         set({ products: get().products.map((p) => (p.id === id ? updated : p)) })

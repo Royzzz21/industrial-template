@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
 import { ExternalLink, LogOut, Menu } from 'lucide-react'
 import { Drawer } from '@/components/ui/Drawer'
@@ -11,6 +11,9 @@ export function AdminShell() {
   const logout = useAuthStore((s) => s.logout)
   const name = useSettingsStore((s) => s.settings.company.logoText)
   const navigate = useNavigate()
+  useEffect(() => {
+    document.title = `Admin · ${name}`
+  }, [name])
 
   const onLogout = () => {
     logout()

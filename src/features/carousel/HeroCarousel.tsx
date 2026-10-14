@@ -8,6 +8,8 @@ import { Container } from '@/components/layout/Container'
 import { cn } from '@/lib/cn'
 import { prefersReducedMotion } from '@/lib/media'
 
+const headlineClass = 'font-display text-4xl font-bold leading-[0.95] text-white sm:text-6xl lg:text-7xl'
+
 export function HeroCarousel({ slides }: { slides: Slide[] }) {
   const enabled = useMemo(
     () => slides.filter((s) => s.enabled).sort((a, b) => a.sortOrder - b.sortOrder),
@@ -69,7 +71,11 @@ export function HeroCarousel({ slides }: { slides: Slide[] }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-steel/70 to-transparent sm:hidden" aria-hidden="true" />
                 <Container className="relative flex h-full flex-col justify-end pb-20 pt-16 sm:justify-center sm:pb-16">
                   <div className="max-w-2xl">
-                    <h1 className="font-display text-4xl font-bold leading-[0.95] text-white sm:text-6xl lg:text-7xl">{slide.headline}</h1>
+                    {i === 0 ? (
+                      <h1 className={headlineClass}>{slide.headline}</h1>
+                    ) : (
+                      <h2 className={headlineClass}>{slide.headline}</h2>
+                    )}
                     <p className="mt-4 max-w-xl text-base text-steel-100 sm:text-lg">{slide.text}</p>
                     {slide.buttonLabel && (
                       <div className="mt-6">

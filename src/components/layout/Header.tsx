@@ -3,8 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 import { ClipboardList, Menu, X } from 'lucide-react'
 import { cn } from '@/lib/cn'
 import { Button } from '@/components/ui/Button'
-import { useQuoteStore } from '@/stores'
-import { selectQuoteCount } from '@/stores/useQuoteStore'
+import { useProductsStore, useQuoteStore } from '@/stores'
 import { Container } from './Container'
 import { Logo } from './Logo'
 import { MobileNav } from './MobileNav'
@@ -12,7 +11,9 @@ import { NAV_LINKS } from './navLinks'
 
 export function Header() {
   const [open, setOpen] = useState(false)
-  const count = useQuoteStore(selectQuoteCount)
+  const items = useQuoteStore((s) => s.items)
+  const products = useProductsStore((s) => s.products)
+  const count = items.reduce((n, i) => (products.some((p) => p.id === i.productId) ? n + i.quantity : n), 0)
   const location = useLocation()
   const rootRef = useRef<HTMLElement>(null)
 

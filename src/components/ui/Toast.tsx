@@ -1,4 +1,5 @@
-import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { STORAGE_ERROR_EVENT } from '@/stores/persist'
 import { CheckCircle2, Info, XCircle } from 'lucide-react'
 import { cn } from '@/lib/cn'
 
@@ -23,6 +24,12 @@ export function ToastProvider({ children }: { children: ReactNode }) {
     window.setTimeout(() => setToasts((list) => list.filter((x) => x.id !== id)), 4000)
   }, [])
   const value = useMemo(() => ({ show }), [show])
+  useEffect(() => {
+    const onStorageError = () =>
+      show({ title: 'Storage full', description: 'Your last change is kept on screen but could not be saved. Remove large uploaded images, or export and reset the data.', tone: 'error' })
+    window.addEventListener(STORAGE_ERROR_EVENT, onStorageError)
+    return () => window.removeEventListener(STORAGE_ERROR_EVENT, onStorageError)
+  }, [show])
   return (
     <ToastContext.Provider value={value}>
       {children}

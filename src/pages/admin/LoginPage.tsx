@@ -5,6 +5,7 @@ import { AlertTriangle } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
 import { Logo } from '@/components/layout/Logo'
+import { seed } from '@/data/seed'
 import { useAuthStore, useSettingsStore } from '@/stores'
 
 interface Values { email: string; password: string }
@@ -13,6 +14,7 @@ export function LoginPage() {
   const isAuthenticated = useAuthStore((s) => s.isAuthenticated)
   const login = useAuthStore((s) => s.login)
   const admin = useSettingsStore((s) => s.settings.admin)
+  const isSeedLogin = admin.email === seed.settings.admin.email && admin.password === seed.settings.admin.password
   const navigate = useNavigate()
   const location = useLocation()
   const [failed, setFailed] = useState(false)
@@ -51,7 +53,12 @@ export function LoginPage() {
           <div className="mt-6 flex gap-3 rounded border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">
             <AlertTriangle className="h-4 w-4 shrink-0" aria-hidden="true" />
             <p>
-              Demo authentication. Replace with a real backend before production. Demo login: <strong>{admin.email}</strong> / <strong>{admin.password}</strong>
+              Demo authentication. Replace with a real backend before production.
+              {isSeedLogin && (
+                <>
+                  {' '}Demo login: <strong>{admin.email}</strong> / <strong>{admin.password}</strong>
+                </>
+              )}
             </p>
           </div>
         </div>

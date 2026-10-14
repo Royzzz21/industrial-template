@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
 import { Header } from './Header'
+import { seed } from '@/data/seed'
 import { useQuoteStore } from '@/stores'
 
 beforeEach(() => {
@@ -9,7 +10,7 @@ beforeEach(() => {
 })
 
 test('shows the quote basket count', () => {
-  useQuoteStore.getState().add('p1', 2)
+  useQuoteStore.getState().add(seed.products[0].id, 2)
   render(
     <MemoryRouter>
       <Header />

@@ -30,7 +30,7 @@ export const useCategoriesStore = create<CategoriesState>()(
         const category: Category = {
           ...input,
           id: newId('cat'),
-          slug: uniqueSlug(slugify(input.slug || input.name), taken),
+          slug: uniqueSlug(slugify(input.slug || input.name) || 'category', taken),
         }
         set({ categories: sorted([...get().categories, category]) })
         return category
@@ -43,7 +43,7 @@ export const useCategoriesStore = create<CategoriesState>()(
               if (c.id !== id) return c
               const next = { ...c, ...patch }
               const slugBase = slugify(patch.slug || patch.name || c.slug)
-              return { ...next, slug: uniqueSlug(slugBase, taken) }
+              return { ...next, slug: uniqueSlug(slugBase || 'category', taken) }
             }),
           ),
         })

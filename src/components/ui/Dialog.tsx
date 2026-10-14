@@ -1,4 +1,4 @@
-import { useEffect, useRef, type ReactNode } from 'react'
+import { useEffect, useId, useRef, type ReactNode } from 'react'
 import { X } from 'lucide-react'
 import { cn } from '@/lib/cn'
 
@@ -15,6 +15,7 @@ const sizes = { sm: 'max-w-md', md: 'max-w-xl', lg: 'max-w-3xl' }
 
 export function Dialog({ open, onClose, title, children, footer, size = 'md' }: Props) {
   const ref = useRef<HTMLDialogElement>(null)
+  const titleId = useId()
 
   useEffect(() => {
     const el = ref.current
@@ -39,10 +40,10 @@ export function Dialog({ open, onClose, title, children, footer, size = 'md' }: 
         'w-[calc(100%-2rem)] rounded-md bg-white p-0 text-graphite shadow-xl backdrop:bg-steel/60',
         sizes[size],
       )}
-      aria-labelledby="dialog-title"
+      aria-labelledby={titleId}
     >
       <div className="flex items-start justify-between gap-4 border-b border-steel-100 px-5 py-4">
-        <h2 id="dialog-title" className="text-2xl">
+        <h2 id={titleId} className="text-2xl">
           {title}
         </h2>
         <button type="button" onClick={onClose} aria-label="Close" className="rounded p-1 text-steel-400 hover:bg-steel-50 hover:text-steel">

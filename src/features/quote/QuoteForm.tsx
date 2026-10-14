@@ -15,6 +15,7 @@ export function QuoteForm() {
   const products = useProductsStore((s) => s.products)
   const addEnquiry = useEnquiriesStore((s) => s.add)
   const [reference, setReference] = useState<string | null>(null)
+  const validCount = items.filter((i) => products.some((p) => p.id === i.productId)).length
 
   const {
     register,
@@ -76,7 +77,7 @@ export function QuoteForm() {
           Send quote request
         </Button>
         <p className="text-xs text-steel-500">
-          {items.length > 0 ? `${items.length} product line${items.length === 1 ? '' : 's'} will be attached.` : 'No products attached. You can still describe what you need.'}
+          {validCount > 0 ? `${validCount} product line${validCount === 1 ? '' : 's'} will be attached.` : 'No products attached. You can still describe what you need.'}
         </p>
       </div>
     </form>

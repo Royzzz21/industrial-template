@@ -35,3 +35,12 @@ test('renders nothing when no slides are enabled', () => {
   )
   expect(container).toBeEmptyDOMElement()
 })
+
+test('renders a single h1 even with several slides', () => {
+  render(
+    <MemoryRouter>
+      <HeroCarousel slides={slides} />
+    </MemoryRouter>,
+  )
+  expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1)
+})

@@ -69,12 +69,12 @@ export function useProductFilters() {
       const next = new URLSearchParams(params)
       if (value) next.set(key, value)
       else next.delete(key)
-      setParams(next, { replace: true })
+      setParams(next, { replace: true, preventScrollReset: true })
     },
     [params, setParams],
   )
 
-  const clear = useCallback(() => setParams(new URLSearchParams(), { replace: true }), [setParams])
+  const clear = useCallback(() => setParams(new URLSearchParams(), { replace: true, preventScrollReset: true }), [setParams])
 
   const results = useMemo(() => applyFilters(products, categories, filters), [products, categories, filters])
 
